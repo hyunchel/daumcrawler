@@ -131,8 +131,5 @@ func RunWithLogging(kakaoappkey string, keyword string) {
 	logger.Println("daumcrawler.RunWithLogging is running.")
 	crawl(kakaoappkey, keyword)
 	// Print logs.
-	debug := false
-	if debug == true {
-		fmt.Print(&buf)
-	}
+	fmt.Print(&buf)
 }
